@@ -1,30 +1,30 @@
-export default function NavBar(){
-    return (<>
-    <nav className="flex justify-between items-center bg-blue-950 text-white text-xl h-20 px-44">
-        <div className="flex gap-4 w-20 items-center">
-        <img className="w-full h-full object-cover" src="/public/logo.png" alt="" />
-        <h2>Code</h2>
-        <div className="flex gap-4">
-            <button className=" text-black bg-[#D9D9D9] w-32 border-2 border-black rounded-lg p-3 ">button 1</button>
-            <button className="text-black bg-[#D9D9D9] w-32 border-2 border-black rounded-lg p-3 ">button 2</button>
-        </div>
-        </div>
+import UserComponent from "./UserComponent";
 
-        <div className="flex gap-4">
+export default function NavBar() {
+  return (
+    <>
+      <header className="sticky top-0 z-10">
+        <nav className="flex h-20 w-full items-center justify-between bg-[#202020]/50 px-44 text-xl text-white backdrop-blur-sm">
+          <div className="navBtns flex gap-4 bg-transparent">
+            <button className="rounded-md bg-[#01A300] px-4 py-2 text-sm text-white hover:bg-[#278a27]">
+              button 1
+            </button>
+            <button className="rounded-md bg-[#01A300] px-4 py-2 text-sm text-white hover:bg-[#278a27]">
+              button 2
+            </button>
+          </div>
 
-        <div >
-            idioma
-        </div>
-        <div>
-            premiun
-        </div>
-        <div className="w-12 border-solid rounded-[100%] ">
-            <ul>
-            <img className="rounded-full" src="https://cdn.prod.website-files.com/610bb663a35dd3364ddbf08c/63219b2e6e6a367eb5621951_react-skeleton-header-min.png" alt="" />
+          <div className="logoChaCode w-20 bg-transparent">
+            <img
+              className="h-full w-full rounded-full object-cover"
+              src="/logoChaCode.png"
+              alt="logoChaCode"
+            />
+          </div>
 
-            </ul>
-        </div>
-        </div>
-    </nav>
-    </>)
+          <UserComponent />
+        </nav>
+      </header>
+    </>
+  );
 }
