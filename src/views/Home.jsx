@@ -2,7 +2,7 @@
 
 function Home() {
   return (
-    <div>Home</div>
+    <div className="h-[80vh]">Home</div>
   )
 }
 

@@ -1,10 +1,11 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
-import Navbar from "../components/Navbar.tsx"
+import Navbar from "../components/Navbar/Navbar.tsx"
 import FooterComponent from "../components/FooterComponent.tsx"
-import Home from "../views/Home"
+import React from 'react';
+import Home from "../views/Home.jsx"
 
 
-function AppRoutes() {
+const AppRoutes: React.FC = () => {
   return (
     <BrowserRouter>
 
