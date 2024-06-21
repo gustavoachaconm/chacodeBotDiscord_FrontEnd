@@ -2,7 +2,8 @@ import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Navbar from "../components/Navbar/Navbar.tsx"
 import FooterComponent from "../components/FooterComponent.tsx"
 import React from 'react';
-import Home from "../views/Home.jsx"
+import Description from "../components/Description.jsx"
+import Hero from "../components/Hero.jsx"
 
 
 const AppRoutes: React.FC = () => {
@@ -11,7 +12,7 @@ const AppRoutes: React.FC = () => {
 
       <Navbar/>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Hero />} />
       </Routes>
       <FooterComponent />
       
