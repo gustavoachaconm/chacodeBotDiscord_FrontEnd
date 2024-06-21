@@ -4,8 +4,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        "greenFont": "#01A300"
-      }
+        "greenFont": "#01A300",
+      },
+      padding: {
+        '4em-0em': '4em 0em',
+      },
     },
   },
   plugins: [],
