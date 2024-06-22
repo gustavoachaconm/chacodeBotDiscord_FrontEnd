@@ -4,7 +4,6 @@ import Dashboard from '../pages/Dashboard.tsx'
 import Homepage from '../pages/HomePage.tsx'
 import FooterComponent from "../components/FooterComponent.tsx"
 import Navbar from "../components/Navbar.jsx"
-import FooterAuthTrue from '../components/FooterAuthTrue/FooterAuthTrue.tsx'
 
 
 const AppRoutes: React.FC = () => {
