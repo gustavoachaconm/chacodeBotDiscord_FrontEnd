@@ -3,9 +3,9 @@ import CardServer from '../components/CardServer';
 
 const Dashboard: React.FC = () => {
     interface guilds {
-        guildName: string;
-        guildAvatar: string;
-        guildPermisions: string;
+      guildName: string;
+      guildAvatar: string;
+      guildPermisions: string;
     }
     interface User {
       name: string;
