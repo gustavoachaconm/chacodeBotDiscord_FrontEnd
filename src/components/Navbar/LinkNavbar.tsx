@@ -3,11 +3,12 @@ import { Link } from "react-router-dom"
 
 interface LinkNavbarProps {
     text: string;
+    link: string;
 }
 
-const LinkNavbar: React.FC<LinkNavbarProps> = ({text}) => {
+const LinkNavbar: React.FC<LinkNavbarProps> = ({text, link}) => {
     return(
-        <Link to="" className='flex items-center h-[12vh] p-paddingLinks border-t-2 border-solid border-t-transparent border-b-2 border-solid border-b-transparent transition-all ease-in duration-10 hover:border-b-[#FFFFFF]'>{text}</Link>
+        <Link to={link} className='flex items-center h-[12vh] p-paddingLinks border-t-2 border-solid border-t-transparent border-b-2 border-solid border-b-transparent transition-all ease-in duration-10 hover:border-b-[#FFFFFF]'>{text}</Link>
     )
 }
 

@@ -11,9 +11,9 @@ const Navbar: React.FC = () => {
         <span className='font-inter font-extrabold italic text-xl'>ChacodeBot</span>
       </a>
       <nav className='flex items-center justify-between w-[20em] text-blancoLetra font-normal text-[1.08em] font-rubik'>
-        <LinkNavbar text='Inicio' />
-        <LinkNavbar text='Componentes' />
-        <LinkNavbar text='Soporte' />
+        <LinkNavbar text='Inicio' link='/'/>
+        <LinkNavbar text='Comandos' link='/Dashboard'/>
+        <LinkNavbar text='Soporte' link='/'/>
       </nav>
       <ButtonLogin />
     </header>
