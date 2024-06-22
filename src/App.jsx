@@ -1,5 +1,7 @@
 import Hero from "./components/Hero"
 import Description from "./components/Description"
+
+import ComplexNavbar from "./components/Navbar"
 function App() {
 
 
@@ -12,6 +14,7 @@ function App() {
           
         </div>
       </div> */}
+      <ComplexNavbar/>
       <Hero/>
       <Description/>
     </>
