@@ -4,7 +4,7 @@ import example3 from "../assets/example-3.png"
 import example4 from "../assets/example-4.png"
 const Description = () => {
   return (
-    <div className="bg-[#052E0B] grid gap-44">
+    <div className="bg-[#052E0B] grid gap-10 md:gap-44">
         <section className="grid grid-cols-1 md:grid-cols-2  ">
             <div className=" grid content-center justify-items-center bg-[#DCFCDF]  rounded-r-[8rem] ">
                 <div className="w-[70%] m-10 grid gap-8">
