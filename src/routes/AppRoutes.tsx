@@ -1,20 +1,22 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
-import Navbar from "../components/Navbar/Navbar.tsx"
-import FooterComponent from "../components/FooterComponent.tsx"
 import React from 'react';
-import Homepage from '../pages/HomePage.tsx'
+import Dashboard from '../pages/Dashboard.tsx'
+import FooterComponent from "../components/FooterComponent.tsx"
+import Navbar from "../components/Navbar/Navbar.tsx"
+import FooterAuthTrue from '../components/FooterAuthTrue/FooterAuthTrue.tsx'
 
 
 const AppRoutes: React.FC = () => {
+
   return (
     <BrowserRouter>
 
-      <Navbar/>
+      <Navbar />
       <Routes>
-        <Route path="/" element={<Homepage />} />
+        <Route path="/" element={<Dashboard />} />
       </Routes>
       <FooterComponent />
-      
+
     </BrowserRouter>
   )
 }
