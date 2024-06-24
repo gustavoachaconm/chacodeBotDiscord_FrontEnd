@@ -36,13 +36,19 @@ const Dashboard: React.FC = () => {
             guildPermisions: "Moderador"
           
           },
+          {
+            guildName: "Nombre servidor 2",
+            guildAvatar: "https://asdasdasdasdasd.png",
+            guildPermisions: "Moderador"
+          
+          },
         ] 
     }
 
     return(
-        <main className='bg-[#052E0B] text-center text-[#FFFFFF] flex flex-col justify-between p-paddingDashboard gap-gapMainDashboard'>
-            <h2 className='font-rubik font-extrabold text-4xl'>Selecciona un servidor</h2>
-            <article className='flex flex-wrap items-center gap-gapCardServer justify-center'>
+        <main className='bg-negro text-center text-blanco flex flex-col justify-between p-paddingDashboard gap-gapMainDashboard'>
+            <h2 className='font-rubik font-extrabold text-4xl text-verde'>Selecciona un servidor</h2>
+            <article className='flex flex-wrap items-center justify-around'>
                 {user.guilds.map((guild, index) => (
                     <CardServer
                         key={index}

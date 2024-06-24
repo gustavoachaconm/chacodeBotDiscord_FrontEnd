@@ -1,11 +1,9 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import React from 'react';
-import Home from "../views/Home.jsx"
 import Dashboard from '../pages/Dashboard.tsx'
 import FooterComponent from "../components/FooterComponent.tsx"
-import Navbar from "../components/Navbar/Navbar.tsx"
-import FooterAuthTrue from '../components/FooterAuthTrue/FooterAuthTrue.tsx'
-
+import Navbar from "../components/Navbar.tsx"
+import BotConfigPage from "../pages/BotConfigPage.tsx";
 
 const AppRoutes: React.FC = () => {
 
@@ -14,9 +12,9 @@ const AppRoutes: React.FC = () => {
 
       <Navbar />
       <Routes>
-        <Route path="/" element={<Dashboard />} />
+        <Route path="/" element={<BotConfigPage />} />
       </Routes>
-      <FooterComponent />
+      {/* <FooterComponent /> */}
 
     </BrowserRouter>
   )

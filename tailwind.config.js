@@ -7,7 +7,11 @@ export default {
         rubik: ['Rubik', 'sans-serif'],
       },
       colors: {
-        'blancoLetra': '#FFFFFF',
+        'blanco': '#FFFFFF',
+        'verde': '#22BC33',
+        'negro': '#161616',
+        'gris': '#818181',
+        'verdeOscuro': '#01A300',
       },
       padding: {
         'footerPadding': '4em 0em',
@@ -15,12 +19,13 @@ export default {
         'paddingLinks': '0em 1em',
         'paddingCardServer': '2em',
         'paddingDashboard': '4em 0em',
+        'paddingAddDiscordButton': '0.2em',
+        'paddingButtonLogin': '0.2em 1em',
       },
       gap: {
-        'gapCardServer': '2em',
         'gapCardServerText': '0.5em',
         'gapMainDashboard': '4em',
-      }
+      },
     },
   },
   plugins: [],

@@ -1,10 +1,12 @@
 import React from 'react';
+import { IconBrandDiscordFilled } from '@tabler/icons-react';
 
 const ButtonAddDiscord: React.FC = () => {
   return (
-    <button className='h-[3em] w-[13em] bg-[#111111] text-white rounded-2xl p-[0.6em_1em] px-10 max-sm:px-2 transition-all ease-in duration-90 hover:bg-[#FFFFFF] hover:text-[#22BC33]'>
-      <a className='flex flex-row gap-6 items-center justify-center font-bold' href="">
-        <h1 className="max-sm:hidden">Añadir a discord</h1>
+    <button className='h-[3em] w-[12em] bg-negro text-white rounded-2xl transition-all ease-in duration-90 hover:bg-blanco hover:text-verde p-paddingAddDiscordButton'>
+      <a className='flex items-center justify-around w-[100%] font-bold' href="">
+        <h1 className="">Añadir a discord</h1>
+        <IconBrandDiscordFilled size={32} />
       </a>
     </button>
   );
