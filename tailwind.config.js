@@ -12,6 +12,8 @@ export default {
         'negro': '#161616',
         'gris': '#818181',
         'verdeOscuro': '#01A300',
+        'letraGris': '#A3A3A3',
+        'grisOpacity08': 'rgba(129, 129, 129, 0.08)'
       },
       padding: {
         'footerPadding': '4em 0em',
@@ -21,6 +23,8 @@ export default {
         'paddingDashboard': '4em 0em',
         'paddingAddDiscordButton': '0.2em',
         'paddingButtonLogin': '0.2em 1em',
+        'paddingAsideDashboard': '2em 2em',
+        'paddingLinkAside': '1em',
       },
       gap: {
         'gapCardServerText': '0.5em',

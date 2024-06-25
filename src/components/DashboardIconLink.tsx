@@ -9,7 +9,7 @@ interface DashboardIconLinkProps {
 
 const DashboardIconLink: React.FC<DashboardIconLinkProps> = ({icon, children, route}) => {
     return(
-        <Link to={route} className='flex items-center font-rubik'>
+        <Link to={route} className='flex items-center gap-10 font-rubik text-letraGris hover:bg-grisOpacity08 p-paddingLinkAside rounded-lg'>
             {icon}
             {children}
         </Link>

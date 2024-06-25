@@ -1,0 +1,23 @@
+export {
+    IconLayoutDashboard, 
+    IconSettings2, 
+    IconBrandMyOppo, IconHandStop, 
+    IconHandOff, 
+    IconAntenna, 
+    IconBrandHipchat,
+    IconMicrophone,
+    IconTerminal2,
+    IconHeadset,
+    IconTicket,
+    IconPool,
+    IconMessage,
+    IconBellRinging,
+    IconBrandYoutube,
+    IconBrandTwitch,
+    IconBrandTiktok,
+    IconBrandX,
+    IconBrandInstagram,
+    IconShare,
+    IconChartBar,
+
+} from '@tabler/icons-react'
