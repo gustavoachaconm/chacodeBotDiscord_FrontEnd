@@ -7,9 +7,9 @@ import * as icon from '../docs/icons.js'
 const AsideDashboard: React.FC = () => {
     return (
         <aside className='w-[30%] asideScroll flex flex-col text-blanco h-[88vh] overflow-y-auto p-paddingAsideDashboard'>
-            <DashboardIconLink icon={<icon.IconLayoutDashboard />} route='/' >Dashboard</DashboardIconLink>
+            <DashboardIconLink icon={<icon.IconLayoutDashboard />} route='dashboard' >Dashboard</DashboardIconLink>
             <DashboardIconLink icon={<icon.IconSettings2 />} route='/' >Settings</DashboardIconLink>
-            <DashboardIconLink icon={<icon.IconBrandMyOppo />} route='/' >Upgrade to premiun</DashboardIconLink>
+            <DashboardIconLink icon={<icon.IconBrandMyOppo />} route='premiun' >Upgrade to premiun</DashboardIconLink>
 
             {/*Separador o divider dashboard*/}
             <DividerDashboardAside textDivider='Bassics' />

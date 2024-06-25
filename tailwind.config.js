@@ -11,8 +11,9 @@ export default {
         'verde': '#22BC33',
         'negro': '#161616',
         'gris': '#818181',
-        'verdeOscuro': '#01A300',
         'letraGris': '#A3A3A3',
+        'grisCardServer': 'rgba(103, 103, 103, 0.28)',
+        'verdeOscuro': '#01A300',
         'grisOpacity08': 'rgba(129, 129, 129, 0.08)'
       },
       padding: {
