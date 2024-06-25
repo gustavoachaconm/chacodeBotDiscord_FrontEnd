@@ -236,7 +236,7 @@ export default function ComplexNavbar() {
                 placeholder={""}
                   as="a"
                   href="/home-movies"
-                  className="mr-4 ml-2 cursor-pointer py-1.5 font-black text-black text-2xl flex items-center"
+                  className="mr-4 ml-2 cursor-pointer py-1.5 font-black text-white text-2xl flex items-center"
                   
                 >
                   <img src={logo} width={85} height={85}  />
