@@ -5,7 +5,7 @@ import example4 from "../assets/example-4.png"
 import CardDescription from "./Cards/CardDescription"
 const Description = () => {
   return (
-    <div className=" grid gap-10 md:gap-44">
+    <div className="bg-[#161616] p-[10em_0em] grid gap-10 md:gap-44">
         <section className="grid grid-cols-1 md:grid-cols-2  ">
             {/* <div className=" grid content-center justify-items-center text-start bg-[#DCFCDF]  rounded-r-[8rem] ">
                 <div className="w-[70%] m-10 grid gap-8">
@@ -23,7 +23,7 @@ const Description = () => {
                 colorTitle="white"
                 colorDescription="black"
                 
-                />
+            />
             <div className="grid justify-center items-center content-center p-6 md:p-0">
                 <img className="h-[220px] lg:h-[300px] relative right-6 md:right-28" src={example1} alt="" />
                 <img className="h-[220px] lg:h-[300px] relative left-6 md:left-28" src={example2} alt="" />

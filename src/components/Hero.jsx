@@ -2,7 +2,7 @@
 import heroBot3d from "../assets/heroBot3d.png"
 const Hero = () => {
   return (
-    <div className="">
+    <div className="bg-[#161616]">
          <section className="flip-scale-2-hor-top container flex flex-col items-center px-6 py-12 mx-auto   lg:flex-row h-screen">
       <div className="lg:w-1/2 p-6  ">
         <h1 className="max-w-xl  text-4xl font-bold tracking-wide text-white capitalize md:text-6xl ">
