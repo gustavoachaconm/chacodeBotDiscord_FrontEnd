@@ -4,7 +4,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        "greenFont": "#01A300"
+        "greenFont": "#22BC33",
+        "greenFon2": "#01A300"
       }
     },
   },
